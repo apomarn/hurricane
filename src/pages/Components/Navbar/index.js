@@ -10,9 +10,9 @@ class MyNavbar extends Component {
           <Navbar.Toggle aria-controls='basic-navbar-nav' />
           <Navbar.Collapse id='basic-navbar-nav'>
             <Nav className='mr-auto'>
-              <Nav.Link href='#home'>Home</Nav.Link>
-              <Nav.Link href='#link'>Donate</Nav.Link>
-              <Nav.Link href='#link'>Request Help</Nav.Link>
+              <Nav.Link href='/'>Home</Nav.Link>
+              <Nav.Link href='/donate'>Donate</Nav.Link>
+              <Nav.Link href='/request-help'>Request Help</Nav.Link>
             </Nav>
             <Form inline>
               <FormControl type='text' placeholder='Search' className='mr-sm-2' />

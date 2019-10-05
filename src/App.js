@@ -6,6 +6,7 @@ import Donate from './pages/Donate'
 import Request from './pages/Request'
 import Navbar from '../src/pages/Components/Navbar'
 import AddDonation from './pages/AddDonation'
+import AddRequest from './pages/AddRequest'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Route exact path='/donate' component={Donate} />
       <Route exact path='/request-help' component={Request} />
       <Route exact path='/add-donation' component={AddDonation} />
+      <Route exact path='/add-request' component={AddRequest} />
     </div>
   )
 }
